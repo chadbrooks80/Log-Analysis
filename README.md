@@ -32,7 +32,7 @@ Once you have completed this, you can test the connection by running the applica
 The following list shows the three other functions within the queries.py file and a brief description of what they do:
 
 
-* popular_articles() - shows the three most popular articles of all time, based on most views. 
+* _popular_articles()_ - shows the three most popular articles of all time, based on most views. 
 
 * popular_authors() - shows the three most popular authors
 
@@ -41,10 +41,10 @@ The following list shows the three other functions within the queries.py file an
 
 
 ## Supported Python Versions
-`Movie Trailer Website` has been tested and working on both Python versions 2 and 3.
+`Log Analysis Application` has been tested and working on both Python versions 2 and 3.
 
 ## Licensing
-`Movie Trailer Website` is a public domain work, dedicated using [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to do whatever you want with it.
+`Log Analysis Application` is a public domain work, dedicated using [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to do whatever you want with it.
 
 
 
