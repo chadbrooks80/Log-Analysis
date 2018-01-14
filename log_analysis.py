@@ -37,7 +37,7 @@ do_not_exit = True
 while do_not_exit == True:
 	#runs make_choice(), which prints out the menu selection options.
 	make_choice()
-	user_input = str(input())
+	user_input = raw_input("Please Select Your Choice: ")
 
 	#checks if their selection isin the user_selection dictionary
 	#if it isn't, it will start the loop over and print out that

@@ -3,8 +3,8 @@ import psycopg2
 #used for all three options to connect to the database and set up cursur
 def connect_db():
 	myConnection = psycopg2.connect( host='localhost', 
-		user='vagrant', 
-		password='Chad7099089!', 
+		user='ENTER_HERE', 
+		password='ENTER_HERE', 
 		dbname='news')
 	return myConnection
 
