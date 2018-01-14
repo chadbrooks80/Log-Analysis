@@ -16,7 +16,7 @@ The log_analysis.py is the main app that should be ran. to run this app, you wil
 
 The queries.py holds the function required for connecting to the database (which you will need to configure), along with 3 specific functions imported into the log_analysis.py file that carry out the three required queries on the newsdata database. 
 
-##connect_db() 
+**connect_db()**
 
 After you have configured the database utilizing the newsdata.sql file, you will need to set up the user and password within the queries.py within the connect_db() function by replacing ENTER_HERE in the code snippet shown below with your chosen username and password.
 
