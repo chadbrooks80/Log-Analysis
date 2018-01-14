@@ -14,9 +14,11 @@ The log_analysis.py is the main app that should be ran. to run the report. to ru
 
 2. queries.py
 
-The queries.py holds the function required for connecting to the database (which you will need to configure), along with 3 specific functions imported into the log_analysis.py file that carry out the three required queries on the newsdata database. After you have configured the database utilizing the newsdata.sql file, you will need to set up the user and password within the queries.py within the connect_db() function by replacing ENTER_HERE in the code snippet shown below with your chosen username and password.
+The queries.py holds the function required for connecting to the database (which you will need to configure), along with 3 specific functions imported into the log_analysis.py file that carry out the three required queries on the newsdata database. 
 
 ##connect_db() 
+
+After you have configured the database utilizing the newsdata.sql file, you will need to set up the user and password within the queries.py within the connect_db() function by replacing ENTER_HERE in the code snippet shown below with your chosen username and password.
 
 ```
 def connect_db():
@@ -34,11 +36,9 @@ The following list shows the three other functions within the queries.py file an
 
 * _popular_articles()_ - shows the three most popular articles of all time, based on most views. 
 
-* popular_authors() - shows the three most popular authors
+* _popular_authors()_ - shows the three most popular authors
 
-* errors() - shows if any of the dates within the database had more than 1% of requests lead to error on that particular day
-
-
+* _errors()_ - shows if any of the dates within the database had more than 1% of requests lead to error on that particular day
 
 ## Supported Python Versions
 `Log Analysis Application` has been tested and working on both Python versions 2 and 3.
