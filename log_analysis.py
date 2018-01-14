@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import psycopg2
 from queries import popular_articles, popular_authors, errors
 
