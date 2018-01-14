@@ -2,17 +2,17 @@
 
 The ``Log Analysis Appication`` is an internal reporting tool that allows you to find out pertainant details for the newspaper site, specifically the activity of users reading the newspaper articles on the site. 
 
-# Running the App
+# Running the App and it's core files
 
-The Log Analysis App runs using python version 2 and includes two main python files and the main sql file for importing the data into a postgresql database: 
+The Log Analysis App runs using python version 2 or 3 and includes two main python files and the main sql file for importing the data into a postgresql database: 
 
-1. log_analysis.py
+1. **log_analysis.py**
 
-The log_analysis.py is the main app that should be ran. to run the report. to run this app, you will need to have python 2 installed on your system. With the command having the log_analysis.py file within it's current directory, you can run the application with the following command: 
+The log_analysis.py is the main app that should be ran. to run this app, you will need to have python 2 or 3 installed on your system. With the command having the log_analysis.py file within it's current directory, you can run the application with the following command (using python v. 2): 
 
 ``python log_analysis.py``
 
-2. queries.py
+2. **queries.py**
 
 The queries.py holds the function required for connecting to the database (which you will need to configure), along with 3 specific functions imported into the log_analysis.py file that carry out the three required queries on the newsdata database. 
 
@@ -39,6 +39,10 @@ The following list shows the three other functions within the queries.py file an
 * _popular_authors()_ - shows the three most popular authors
 
 * _errors()_ - shows if any of the dates within the database had more than 1% of requests lead to error on that particular day
+
+## using ``log Analysis Application``
+
+once you have ran the log_analysis.py file form the command prompt or terminal and the database has been correctly configured, you just simply follow the instructions on the prompt.
 
 ## Supported Python Versions
 `Log Analysis Application` has been tested and working on both Python versions 2 and 3.
